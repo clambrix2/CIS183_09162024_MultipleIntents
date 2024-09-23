@@ -94,4 +94,12 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sp_v_typesDropDown" />
+
+    <ListView
+        android:id="@+id/lv_v_newpet_petlist"
+        android:layout_width="409dp"
+        android:layout_height="315dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_v_newPet_addPet" />
 </androidx.constraintlayout.widget.ConstraintLayout>
